@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Community Circle</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo-container">
+            <img src="images/logo2.jpg" alt="Community circle" class="logo">
+        </div>
+        <div id="greeting" class="greeting"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Community Circle</h1>
+                <p>We are the community circle. The satisfaction of customers or community members is our goal, our fulfilment and pride. 
+                
+                Our mission is to create a space where your welfare, growth, and wellbeing are at the heart of everything we do. 
+                    
+    
+                    </p>
+                <a href="services.html" class="btn">Explore Our Services</a>
+            </div>
+        </section>
+
+
+        <!-- Image Slider -->
+        <section class="slider-container">
+            <div class="slider">
+                <div class="slide active">
+                    <img src="images/community.jpeg" alt="Mother Care" class="slide-img">
+                    <div class="slide-caption"></div>
+                </div>
+                <div class="slide">
+                    <img src="images/Community Circle.jpg" alt="Couselling" class="slide-img">
+                    <div class="slide-caption"></div>
+                </div>
+                <div class="slide">
+                    <img src="images/MM.jpeg" alt="App" class="slide-img">
+                    <div class="slide-caption"></div>
+                </div>
+            </div>
+            <button class="slider-btn prev">&#10094;</button>
+            <button class="slider-btn next">&#10095;</button>
+        </section>
+
+        <!-- Interactive Feature: Business Tip -->
+
+        <section class="business-tip">
+            <h2>Business Tip of the Day</h2>
+            <p id="random-tip">Click below for a Business tip!</p>
+            <button id="tip-button" class="btn">Get Business Tip</button>
+        </section>
+    
+
+    <div id="chatbot" class="chatbot">
+        <div class="chatbot-header">
+            <h3>Community Assistant</h3>
+            <button id="close-chat">×</button>
+        </div>
+        <div class="chatbot-messages" id="chatbot-messages">
+            <div class="bot-message">Hi there! How can I help you with your coffee today?</div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="user-input" placeholder="Type your question...">
+            <button id="send-message">Send</button>
+        </div>
+    </div>
+    
+    <div class="chat-icon" id="chat-icon">
+        <span>☕</span>
+    </div>
+
+
+<footer class="bg-lightblue text-center py-3">
+    <p>&copy; 2025 Community Circle. All rights reserved.</p>
+</footer>
+
+    <!-- Scripts -->
+    <!-- Bootstrap Dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>

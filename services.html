@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Community Circle</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar (same as index.html) -->
+    <header>
+        <div class="logo-container">
+            <img src="images/logo2.jpg" alt="Community circle" class="logo">
+        </div>
+        <div id="greeting" class="greeting"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products py-5">
+            <div class="container">
+                <h1 class="text-center mb-4">Our Services</h1>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/Mothercare.jpg" class="card-img-top" alt="Mother Care Shop">
+                            <div class="card-body">
+                                <h5 class="card-title">Mother Care Shop</h5>
+                                <p class="card-text">Quality and affordable products for mothers and babies, ensuring comfort and care.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/Counselling.jpg" class="card-img-top" alt="Counselling">
+                            <div class="card-body">
+                                <h5 class="card-title">Counselling</h5>
+                                <p class="card-text">Professional support and guidance for life’s challenges.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/Daily life app.jpg" class="card-img-top" alt="Daily Life App">
+                            <div class="card-body">
+                                <h5 class="card-title">Daily Life App</h5>
+                                <p class="card-text">Manage daily tasks and stay organized with our app.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+        </section>
+    </main>
+    <div id="chatbot" class="chatbot">
+        <div class="chatbot-header">
+            <h3>Community Assistant</h3>
+            <button id="close-chat">×</button>
+        </div>
+        <div class="chatbot-messages" id="chatbot-messages">
+            <div class="bot-message">Hi there! How can I help you with your coffee today?</div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="user-input" placeholder="Type your question...">
+            <button id="send-message">Send</button>
+        </div>
+    </div>
+    
+    <div class="chat-icon" id="chat-icon">
+        <span>☕</span>
+    </div>
+
+    <footer class="bg-lightblue text-center py-3">
+        <p>&copy; 2025 Community Circle. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Bootstrap Dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
